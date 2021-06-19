@@ -1,0 +1,150 @@
+     font-family:sans-serif;
+     margine:0;
+     padding:0;
+}
+body
+{
+  color: white;
+}
+ img{
+   width:20%;
+   margin: auto auto;
+   display: block;
+   margine-top:-4%;
+}
+
+.section{
+   width:80%;
+   margine:auto;
+   overflow:hidden;
+   margine-top:4%;
+   color: white;
+   font-size: 20px;
+   margin-right: 10%;
+   margin-left: 10%;
+      
+  
+}
+
+section h1{
+     
+     line-height:50px;
+}
+
+
+section p{
+     color:cyan;
+}
+
+
+btn-1{
+   background-color:orangered;
+   padding:5rem 1rem;
+   color:#fff;
+   border:solid;
+   border-radius:10px;
+}
+
+
+.features{
+    margine-top:4%
+    margine-bottom:2%;
+}
+
+.feature button{
+     padding:0.7rem 2rem;
+     margine-right:2rem;
+     font-size:1.2rem
+     opacity:0.7rem;
+}
+
+showcase {
+   margine-top:5%
+   margine-bottom:4%
+   text-allign:center;
+   color: white;
+
+}
+
+
+#courses{
+   
+   text-allign:center;
+   color: white;
+}
+
+#courses img{
+   width:350px;
+   border-radius:10px;
+   height: 50%;
+   width: 50%;
+   align-items: left;
+   display: flex;
+   border:3px solid white;
+}
+
+
+.apply{
+   margin-top: 2%;
+  align-self: center;
+  transform: translate(1%,20%);
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  padding:0.7rem 3rem;
+  color:#fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  font-size: 24px;
+  border-radius:30px;
+  background-size: 400%;
+  cursor: pointer;
+  z-index: 1;
+}
+.apply:hover
+{
+  animation: animate 8s linear infinite 
+}
+@keyframes animate
+{
+  0%
+  {
+    background-position: 0%
+  }
+  100%
+  {
+    background-position: 400%
+  }
+  
+
+}
+.apply:before
+{
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  background-size: 400%;
+  border-radius: 40px;
+  opacity: 0;
+  transition: 0.5%;
+}
+.apply:hover:before
+{
+   filter: blur(20px);
+   opacity: 1;
+   animation: animate 8s linear infinite 
+}
+.footer{
+ backgrounf-color:#333;
+ color:#fff;
+ text-allign:center;
+ padding:1.2rem;
+}
+  
+ 
+
